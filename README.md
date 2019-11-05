@@ -41,7 +41,9 @@ mv jvcif $JAVA_TOP
 
 - For Internet Explorer / Edge, your EBS URL must be in zone "Local Intranet" or "Trusted sites". In such zone, the custom level must provide `Automatic login with current user and password`.
 <img src="pic/IEsetting.png">
+
 - Google Chrome browser can pick up this IE security setting.  No further configuration needed.
+
 - For Firefox, type `about:config` in the address bar
   - Set `network.automatic-ntlm-auth.trusted-uris` to _http(s)://erp.hostname.com_
   - Set `network.negotiate-auth.delegation-uris` to _http(s)://erp.hostname.com_
