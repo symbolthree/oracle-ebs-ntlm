@@ -1,4 +1,4 @@
-# Showing AD information in Oracle EBS Using NTLM passthrough from Browser
+# Showing AD information in Oracle EBS (12.1) Using NTLM passthrough from Browser
 
 ## About
 
@@ -10,7 +10,7 @@ This code is working ONLY when
 - The client browser is running under Windows 7/10 in corporate envrionment, 
 i.e. An OS with AD user logged on under a domain through Corporate AD.
 - NTLMv1 is used.  NTLMv2 does **not** work.  (see Appendix for details)
- As of writin, this code is tested with IE11, Edge (Windows 10), Google Chrome v77, and Mozilla Firefox v69.
+ As of writing, this code is tested with IE11, Edge (Windows 10), Google Chrome v77, and Mozilla Firefox v69.
 
 ### Deployment
 
